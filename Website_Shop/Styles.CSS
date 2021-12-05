@@ -1,0 +1,167 @@
+body 
+{
+  background-image: url(Content/background.png);  
+  margin:0;
+  background-size: cover;
+  background-repeat: no-repeat; 
+  background-attachment: fixed;  
+  background-position: center center;   
+}
+
+
+@font-face {
+	font-family: 'pix'; 
+	src: url(Fonts/pix.otf); 
+} 
+
+.SocksText{
+  margin: 25px 10px 10px 3px;
+} 
+
+.SocksImg {
+  position:relative;
+  margin: 8px;
+  background-image:url(Content/EXE.png);
+  height:100px;
+  width:100px;
+}
+
+.SocksText pre{
+  position:absolute;
+  text-align: center;
+  font: 1em pix;
+  color: aliceblue;
+  margin: 0 0 10px 25px;
+}
+
+.HoodyesText{
+  margin: 25px 10px 10px 3px;
+} 
+
+.HoodyesImg {
+  position:relative;
+  margin: 8px;
+  background-image:url(Content/EXE.png);
+  height:100px;
+  width:100px;
+}
+
+.HoodyesText pre{
+  position:absolute;
+  text-align: center;
+  font: 1em pix;
+  color: aliceblue;
+  margin: 0 0 10px 15px;
+}
+
+.T-ShirtsText{
+  margin: 25px 10px 10px 3px;
+} 
+
+.T-ShirtsImg {
+  position:relative;
+  margin: 8px;
+  background-image:url(Content/EXE.png);
+  height:100px;
+  width:100px;
+}
+
+.T-ShirtsText pre{
+  position:absolute;
+  text-align: center;
+  font: 1em pix;
+  color: aliceblue;
+  margin: 0 0 10px 15px;
+}
+
+.MainText{
+  margin: 25px 10px 10px 3px;
+} 
+
+.MainImg {
+  position:relative;
+  margin: 8px;
+  background-image:url(Content/Main.png);
+  height:100px;
+  width:100px;
+}
+
+.MainText pre{
+  position:absolute;
+  text-align: center;
+  font: 1em pix;
+  color: aliceblue;
+  margin: 0 0 10px 40px;
+}
+
+.BasketImg {
+  position:relative;
+  margin: 8px;
+  background-repeat: no-repeat; 
+  background-image:url(Content/basket.png);
+  height:110px;
+  width:100px;
+}
+.BasketText {
+  margin: 25px 10px 10px 3px;
+}
+.BasketText pre{
+  position:absolute;
+  text-align: center;
+  font: 1em pix;
+  color: aliceblue;
+  margin: 0px 0 10px 15px;
+}
+
+.poster{
+  position:relative;
+  margin: 0px 0 10px 15px;
+  background-image:url(Content/Help.png);
+  height:100px;
+  width:100px;
+  background-repeat: no-repeat; 
+}
+.descr{
+  display:none;
+  margin-right:-400px;
+  padding:5px;
+  background-repeat: no-repeat; 
+  background-image:url(Content/window.png);
+  height:430px;
+  width:390px;
+
+}
+.poster:hover .descr{
+  display:block;
+  position:absolute;
+  top:100px;
+  z-index:9999;
+  width:410px;
+}
+
+.Text {
+  margin: 30px 0 0px 0px;
+}
+
+.Text p{
+	position:absolute;
+  text-align: center;
+  font: 1em pix;
+  color: aliceblue;
+  margin: 0px 0 0px 15px;
+}
+
+.menu {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+
+    margin: 0 0 0 0;  
+  }
+ .menu li {
+    margin: 0 0 0 0;
+    padding: 0;
+    display: inline-block;
+    color: cornsilk ;
+    }
+
